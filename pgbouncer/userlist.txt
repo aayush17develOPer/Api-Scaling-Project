@@ -1,0 +1,2 @@
+; Plain-text password is fine for local benchmarking; PgBouncer does the SCRAM exchange itself.
+"bench" "bench"

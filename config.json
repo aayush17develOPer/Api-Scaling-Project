@@ -99,6 +99,23 @@
             "timeout": -1.0
         }
     ],*/
+
+    "db_clients": [
+  {
+    "name": "default",
+    "rdbms": "postgresql",
+    "host": "127.0.0.1",
+    "port": 6432,
+    "dbname": "test",
+    "user": "bench",
+    "passwd": "bench",
+    "is_fast": false,
+    "number_of_connections": 8,
+    "timeout": 10.0,
+    "auto_batch": false
+  }
+],
+
     "app": {
         //number_of_threads: The number of IO threads, 1 by default, if the value is set to 0, the number of threads
         //is the number of CPU cores
